@@ -1,0 +1,78 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #48cae4;
+  gap: 20px;
+  color: #03045e;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  height: 100px;
+}
+
+.license {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.licenseSubmit {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+input,
+select {
+  border: 3px solid #0096c7;
+  border-radius: 5px;
+  width: 300px;
+  padding: 12px;
+  background-color: #caf0f8;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  font-size: 16px;
+}
+
+input:focus,
+select:focus {
+  border-color: #023e8a;
+}
+
+button {
+  border-radius: 5px;
+  background-color: #023e8a;
+  color: white;
+  padding: 12px 32px;
+  border: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #03045e;
+}
+
+#error {
+  color: red;
+}
+
+#bananaType {
+  width: 100%;
+}

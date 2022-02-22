@@ -1,0 +1,26 @@
+{
+  "name": "whop-quick-start",
+  "version": "1.0.0",
+  "description": "Whop Sample Electron App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Whop",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Whop",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^17.0.0",
+    "whopapi": "^2.0.0"
+  },
+  "dependencies": {
+    "node-machine-id": "^1.1.12"
+  }
+}
